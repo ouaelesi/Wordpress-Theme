@@ -9,12 +9,14 @@
 </head>
 <body>
 <header>
+<div class="position-fixed gotop pt-1 pl-2" id="gotop">
+      <i class="fa fa-chevron-up fa-2x"></i></div>
 <nav
       class="navbar navbar-expand-lg navbar-light bg-muted fixed-top"
       id="mynav"
     >
       <a class="navbar-brand" href="#">
-        <img src="./assets/logos/logo.png" alt="logo" class="header-logo"/></a>
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/logos/logo.png" alt="logo" class="header-logo"/></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -87,7 +89,7 @@
             </div>
           </li>
           <li class="nav-item mx-3">
-            <a class="nav-link" href="./html/blogs.html"
+            <a class="nav-link" href="<?php site_url('/blogs'); ?>"
               ><strong>BLOGS</strong></a
             >
           </li>

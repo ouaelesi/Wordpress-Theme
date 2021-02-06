@@ -14,7 +14,7 @@
           ><i class="fa fa-youtube fa-2x mx-2"></i>
         </div>
         <div class="col-md-4 footer-logo">
-          <img src="./assets/logos/logo-white.png" alt="log" />
+          <img src="<?php echo get_template_directory_uri( ) ?>/assets/logos/logo-white.png" alt="log" />
         </div>
         <div class="col-md-4">
           <h4 class="footer-titles"><strong>About EDU Hustle</strong></h4>

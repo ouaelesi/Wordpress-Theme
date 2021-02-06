@@ -67,7 +67,7 @@ Author: Sahbi Ouael Nedjem Eddine
     margin-top: 100px;
   }
   .quote-container {
-    background-image: url(../assets/blogs/street.jpg);
+    background-image: url(/assets/blogs/street.jpg);
     background-repeat: none;
     background-size: cover;
     background-position: 0px 400px;

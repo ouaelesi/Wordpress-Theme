@@ -1,3 +1,4 @@
+
 var blue_color ="#2aa9df", light_color ="#f7f7f7";
 window.onscroll = function () {
     scrollFunction();
